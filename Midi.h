@@ -1,0 +1,2 @@
+#define MIDI_BAUDRATE 31250
+#define MIDI_PRESCALE (((F_CPU / (MIDI_BAUDRATE * 16UL))) - 1)
